@@ -1,7 +1,7 @@
 export class TestClass {
-    public counter: number = 0;
+    public counter = 0;
 
-    public static counterStatic: number = 0;
+    public static counterStatic = 0;
 
     public static PI(): number {
         return Math.PI;
